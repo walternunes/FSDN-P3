@@ -28,13 +28,13 @@ The program in this project will run from the command line. It won't take any in
 
 2-) Setting up Database
 * [Download](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) database data and extract the file ```newsdata.sql``` inside the folder ```vagrant/catalog```
-* Inside ```vagrant``` folder and run ```vagrant ssh``` to access the machine
+* Inside ```vagrant``` folder run ```vagrant ssh``` to access the machine
 * Type ```cd /vagrant/catalog``` to access the common folder
 * Run ```psql -d news -f newsdata.sql```
 
 3-) Running the python
-* Place the file [newsdata.py](https://raw.githubusercontent.com/walternunes/FSDN-P3/master/newsdata.py) (of my project/repo) inside the folder inside the folder ```vagrant/catalog```
-* Inside ```vagrant``` folder and run ```vagrant ssh``` to access the machine (if you are not logged in)
+* Place the file [newsdata.py](https://raw.githubusercontent.com/walternunes/FSDN-P3/master/newsdata.py) (of my project/repo) inside the folder ```vagrant/catalog```
+* Inside ```vagrant``` folder run ```vagrant ssh``` to access the machine (if you are not logged in yet)
 * Type ```cd /vagrant/catalog``` to access the common folder
 * Run ```python3 newsdata.py```
 
